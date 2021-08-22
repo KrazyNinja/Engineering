@@ -1,0 +1,49 @@
+23:40:14 **** Incremental Build of configuration Debug for project Problem ****
+make all 
+Building file: ../src/Problem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Problem.d" -MT"src/Problem.o" -o "src/Problem.o" "../src/Problem.cpp"
+Finished building: ../src/Problem.cpp
+ 
+Building target: Problem
+Invoking: GCC C++ Linker
+g++  -o "Problem"  ./src/Problem.o   
+Finished building target: Problem
+ 
+23:41:24 **** Incremental Build of configuration Debug for project Problem ****
+make all 
+make: Nothing to be done for 'all'.
+23:41:50 **** Incremental Build of configuration Debug for project Problem ****
+make all 
+Building file: ../src/Problem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Problem.d" -MT"src/Problem.o" -o "src/Problem.o" "../src/Problem.cpp"
+Finished building: ../src/Problem.cpp
+ 
+Building target: Problem
+Invoking: GCC C++ Linker
+g++  -o "Problem"  ./src/Problem.o   
+Finished building target: Problem
+ 
+01:21:27 **** Incremental Build of configuration Debug for project Problem_A2 ****
+make all 
+make: Nothing to be done for 'all'.
+01:32:27 **** Clean-only build of configuration Debug for project Problem_A2 ****
+make clean 
+rm -rf  ./src/Problem_A2.o  ./src/Problem_A2.d  Problem_A2
+ 
+01:32:28 **** Build of configuration Debug for project Problem_A2 ****
+make all 
+Building file: ../src/Problem_A2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Problem_A2.d" -MT"src/Problem_A2.o" -o "src/Problem_A2.o" "../src/Problem_A2.cpp"
+Finished building: ../src/Problem_A2.cpp
+ 
+Building target: Problem_A2
+Invoking: GCC C++ Linker
+g++  -o "Problem_A2"  ./src/Problem_A2.o   
+Finished building target: Problem_A2
+ 
+01:32:36 **** Incremental Build of configuration Debug for project Problem_A2 ****
+make all 
+make: Nothing to be done for 'all'.

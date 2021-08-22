@@ -1,0 +1,15 @@
+23:41:50 **** Incremental Build of configuration Debug for project Problem ****
+make all 
+Building file: ../src/Problem.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Problem.d" -MT"src/Problem.o" -o "src/Problem.o" "../src/Problem.cpp"
+Finished building: ../src/Problem.cpp
+ 
+Building target: Problem
+Invoking: GCC C++ Linker
+g++  -o "Problem"  ./src/Problem.o   
+Finished building target: Problem
+ 
+
+23:41:52 Build Finished (took 1s.369ms)
+
